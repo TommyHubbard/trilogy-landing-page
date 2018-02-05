@@ -1,0 +1,242 @@
+#trilogy-logo
+  width: 25%
+  max-width: 25%
+
+.call-to-action
+  float: right
+  text-align: right
+  font: bold 1em 'Roboto Slab', serif
+  color: #fff
+  span
+    color: #2fe6f8
+
+header
+  background: url(../images/code_hero.jpg) no-repeat center top
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  padding: 12em 0 5em 0 !important
+  /*padding: 154px 0 100px;
+  h1
+    font: bold 2.5em Arial, Helvetica, san-serif
+    width: 55%
+    max-width: 55%
+    margin-bottom: 0 !important
+  div.sub-header
+    font: normal 1.2em 'Roboto Slab', serif
+    padding: 0 0 .5em 0
+
+.program-info-form
+  background: rgba(255, 255, 255, 0.7)
+  border-radius: 3px
+  margin: 2em 0 0 0
+  padding: .7em
+  width: 70%
+  p
+    text-transform: uppercase
+    text-align: center
+    color: #000
+    font: bold 1.5em Arial, Helvetica, san-serif
+    margin: 0
+    span
+      font: normal .7em Arial, Helvetica, san-serif
+      text-transform: none
+  input
+    background: transparent
+    border: 0
+    border-radius: 0
+    border-bottom: 1px solid #000
+    &:hover, &:focus, &:active
+      background: transparent
+      border: 0
+      border-radius: 0
+      border-bottom: 1px solid #000
+    &:first-child
+      margin: 0 1em 0 0
+    &::placeholder
+      /* Chrome, Firefox, Opera, Safari 10.1+
+      color: #000
+      font-size: 1.2em
+      text-align: center
+      opacity: 1
+      /* Firefox
+    &:-ms-input-placeholder
+      /* Internet Explorer 10-11
+      font-size: 1.2em
+      text-align: center
+      color: #000
+    &::-ms-input-placeholder
+      /* Microsoft Edge
+      font-size: 1.2em
+      text-align: center
+      color: #000
+  button
+    font: bold 1.5em Arial, Helvetica, san-serif
+    text-transform: uppercase
+    letter-spacing: 2px
+    margin-top: .7em
+    padding: .15em 0 !important
+    background: #38bcdb !important
+    border: 1px solid #38bcdb !important
+    &:hover
+      background: #2e91a3 !important
+      border: 1px solid #2e91a3 !important
+    img
+      max-width: 5%
+      width: 5%
+      position: relative
+      bottom: 2px
+
+header
+  .panel, .panel-default
+    margin: 0 0 4em auto
+    width: 67%
+    max-width: 67%
+    border-bottom: 4px solid #fff
+  .panel h2, .panel-default h2
+    color: #fff
+    text-transform: uppercase
+    text-align: right
+    font: bold 1.5em Arial, Helvetica, san-serif
+    /*'Dosis',
+
+.selected-hero-item
+  border-bottom: 4px solid #38bcdb !important
+
+.selected-hero-header
+  color: #38bcdb !important
+
+header
+  .panel p, .panel-default p
+    color: #fff
+    text-align: right
+    font: normal 1.2em Arial, Helvetica, san-serif
+    line-height: 1.5em
+
+@media (min-width: 992px)
+  header
+    padding: 156px 0 100px
+
+/*section {
+ *  padding: 150px 0;
+ *}
+
+#featuring
+  background: url(../images/featuring.jpg) no-repeat center top
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  padding: 3em 0
+  h2
+    font: normal 2.3em Arial, Helvetica, san-serif
+    color: #fff
+    text-decoration: underline
+    text-align: center
+    margin: 0 auto
+    padding: 0 0 1em 0
+  .container .row div
+    &:nth-child(1) img, &:nth-child(3) img
+      margin: 0 auto
+      width: 30%
+      max-width: 30%
+    &:nth-child(2) img
+      width: 90%
+  p
+    font: normal 1em 'Roboto Slab', serif
+    color: #fff
+    text-align: center
+    padding: 1em 0
+  .container .row
+    &:nth-child(2)
+      padding: 0 0 3em 0
+    &:nth-child(3) p
+      font: normal .8em 'Roboto Slab', serif
+      color: #fff
+      text-align: center
+      margin: 0 auto
+      padding: 0
+
+#services
+  background: url(../images/about.jpg) no-repeat center top fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  padding: 5em 0
+  h2
+    font: normal 2.3em Arial, Helvetica, san-serif
+    color: #38bcdb
+    text-decoration: underline
+    text-align: center
+    margin: 0 auto
+    padding: 0 0 1em 0
+  p
+    font: normal 1.3em 'Roboto Slab', serif
+    text-align: center
+
+#faq
+  background: url(../images/faq.jpg) no-repeat center top
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  padding: 7em 0
+  .container .row div div
+    padding: 0 0 .1em 0
+    div div[id^="answer-"]
+      padding: 0 0 1em 2.2em
+
+#accordion
+  width: 65%
+  max-width: 65%
+
+#faq
+  h2
+    font: normal 2.3em Arial, Helvetica, san-serif
+    color: #000
+    text-decoration: underline
+    padding: 0 0 1em 0
+  h4.panel-title div
+    &:first-child
+      width: auto
+      display: inline-block
+      vertical-align: top
+      padding: 3px 5px 0 0
+    &:last-child
+      width: 80%
+      display: inline-block
+      a
+        color: black
+        text-decoration: none
+        font: normal .8em 'Roboto Slab', serif
+        cursor: pointer
+        &:hover, &:visited
+          color: black
+          text-decoration: none
+          font: normal .8em 'Roboto Slab', serif
+          cursor: pointer
+
+footer
+  background: #88d7e8
+  border-top: 2px solid #2e91a3
+  padding: 2em 0
+  margin: 0
+  p
+    font: normal .9em 'Roboto Slab', serif
+    color: #000
+    text-align: right
+    width: 100%
+    max-width: 100%
+    span
+      font-weight: bold
+    a
+      font-weight: bold
+      text-decoration: underline
+      &:hover
+        text-decoration: none
+
+#trilogy-logo-blk
+  width: 60%
+  max-width: 60%
